@@ -108,3 +108,4 @@ contract_day_page = ContractDayPage(
     contract_day_meta["url"],
     contract_day_meta["date"],
 )
+groups, footnotes = contract_day_page.get_contracts()
